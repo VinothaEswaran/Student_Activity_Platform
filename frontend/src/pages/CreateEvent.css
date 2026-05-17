@@ -1,0 +1,40 @@
+.create-event-page { max-width: 700px; }
+
+.create-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+
+.create-card h2 { font-size: 22px; margin-bottom: 4px; }
+.subtitle { color: var(--text2); font-size: 14px; margin-bottom: 28px; }
+
+.create-form { display: flex; flex-direction: column; gap: 18px; }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 13px; font-weight: 500; color: var(--text2); }
+textarea { resize: vertical; }
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.form-actions button { display: flex; align-items: center; gap: 6px; }
+
+.back-btn {
+  background: none;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 6px 0;
+}
+.back-btn:hover { color: var(--text); }
